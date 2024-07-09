@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игрушки для Сына</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Игрушки для Сына</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#cars">Машинки</a></li>
+            <li><a href="#robots">Роботы</a></li>
+            <li><a href="#constructors">Конструкторы</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="cars">
+            <h2>Машинки</h2>
+            <div class="toy">
+                <img src="car1.jpg" alt="Машинка 1">
+                <h3>Машинка 1</h3>
+                <p>Описание Машинки 1</p>
+                <p>Цена: 500 руб.</p>
+            </div>
+            <!-- Добавьте больше игрушек аналогичным образом -->
+        </section>
+        <section id="robots">
+            <h2>Роботы</h2>
+            <div class="toy">
+                <img src="robot1.jpg" alt="Робот 1">
+                <h3>Робот 1</h3>
+                <p>Описание Робота 1</p>
+                <p>Цена: 1000 руб.</p>
+            </div>
+            <!-- Добавьте больше игрушек аналогичным образом -->
+        </section>
+        <section id="constructors">
+            <h2>Конструкторы</h2>
+            <div class="toy">
+                <img src="constructor1.jpg" alt="Конструктор 1">
+                <h3>Конструктор 1</h3>
+                <p>Описание Конструктора 1</p>
+                <p>Цена: 1500 руб.</p>
+            </div>
+            <!-- Добавьте больше игрушек аналогичным образом -->
+        </section>
+    </main>
+    <footer>
+        <p>Контактная информация: example@example.com</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
